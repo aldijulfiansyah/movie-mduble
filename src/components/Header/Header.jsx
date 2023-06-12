@@ -1,5 +1,6 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
+import logos from "../../assets/logo/aldiksklogo.png"
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
         <Link to="/" style={{ textDecoration: "none" }}>
           <img
             className="header__icon"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/2560px-IMDB_Logo_2016.svg.png"
+            src={logos}
             alt=""
           />
         </Link>
